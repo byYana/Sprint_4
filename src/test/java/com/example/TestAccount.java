@@ -23,6 +23,7 @@ public class TestAccount {
                 {"IV", false},               // 2 символа
                 {"I I", true},               // 3 символа
                 {"IVANOVICH IVANIVANIV", false},//20 символов
+                {"", false},              // пустая строка
                 {" IVANOVIVAN", false},      //пробел в начале
                 {"IVANOVIVAN ", false},     // пробел в конце
                 {"IVANOVIVAN", false},       // 0 пробелов
